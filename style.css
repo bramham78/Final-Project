@@ -236,7 +236,7 @@ header .row {
 .header__email--btn {
    z-index: 2;
    margin: 8px;
-   height: cac(100% - 16px);
+   height: calc(100% - 16px);
    border-radius: 500px;
    width: 160px;
    border: none;
@@ -725,7 +725,6 @@ h2.section__title {
 }
 
 .value {
-    margin-right: 2rem;
     align-items: flex-start;
     display: flex;
     flex-direction: column;
@@ -855,6 +854,8 @@ section {
     line-height: 1.625;
 }
 
+/* Plans */
+
 .plans {
     display: flex;
     position: relative;
@@ -866,10 +867,8 @@ section {
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    color: #243e63;
 }
 
 .plan {
